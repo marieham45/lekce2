@@ -20,3 +20,57 @@ document.body.innerHTML +=
   "<p>Příjem divadla se studentskou slevou: " +
   Math.ceil(prijemSeStudentskouSlevou) +
   " EUR.</p>";
+
+document.body.innerHTML += "<h1>Hod kostkou</h1>";
+
+const hodKostkou = Math.ceil(Math.random() * 6);
+/*
+Jak to funguje?
+- Math.random() vrací desetinné číslo od 0 do 1, např. 0.568756412
+- tento výsledek vynásobíme 6, dostaneme tedy čísla od 0.0000000000 do 5.999999999
+- tento výsledek zaokrouhlíme pomocí Math.ceil nahoru, dostaneme tedy čísla od 1 do 6
+*/
+
+document.body.innerHTML += "<p>Hozeno: " + hodKostkou + "</p>";
+
+//test různých čísel - padnou všechny možnosti od 1 do 6?
+document.body.innerHTML +=
+  "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>";
+document.body.innerHTML +=
+  "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>";
+document.body.innerHTML +=
+  "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>";
+document.body.innerHTML +=
+  "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>";
+document.body.innerHTML +=
+  "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>";
+document.body.innerHTML +=
+  "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>";
+document.body.innerHTML +=
+  "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>";
+document.body.innerHTML +=
+  "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>";
+document.body.innerHTML +=
+  "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>";
+document.body.innerHTML +=
+  "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>";
+document.body.innerHTML +=
+  "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>";
+document.body.innerHTML +=
+  "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>";
+document.body.innerHTML +=
+  "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>";
+document.body.innerHTML +=
+  "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>";
+document.body.innerHTML +=
+  "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>";
+document.body.innerHTML +=
+  "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>";
+document.body.innerHTML +=
+  "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>";
+document.body.innerHTML +=
+  "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>";
+document.body.innerHTML +=
+  "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>";
+document.body.innerHTML +=
+  "<p>Hozeno: " + Math.ceil(Math.random() * 6) + "</p>";
